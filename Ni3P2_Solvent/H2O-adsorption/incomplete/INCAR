@@ -1,0 +1,37 @@
+General:
+  SYSTEM  = Ni2P
+  PREC    = Accurate
+  ENCUT   = 500
+  ISMEAR  = 0
+  SIGMA   = 0.05
+  POTIM   = 0
+  NELM    = 300
+  LWAVE   = .TRUE.
+  LCHARG  = .TRUE.
+  ISYM    = 0
+  LREAL   = Auto
+  NPAR    = 8
+  ALGO    = Fast
+#Starting conditions:
+  ISTART = 1
+  ICHARG = 1
+Relaxation:
+  ISIF    = 2
+  IBRION  = 3
+  EDIFFG  = -0.02
+  EDIFF   = 1.00e-8
+  NSW     = 100
+Dipole:
+  #LORBIT = 11
+  IDIPOL  = 3
+  LDIPOL  = .TRUE.
+Spin:
+  ISPIN   = 2
+  MAGMOM = 60*2.0 32*1.0 8*1.0 4*1.0
+#VaspSol param
+ LSOL = .TRUE.
+ EB_K = 78.4
+ LAMBDA_D_K = 3.0
+#LBFGS Param
+ IOPT = 7
+ MAXMOVE = 0.15  #default
