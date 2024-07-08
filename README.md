@@ -1,6 +1,8 @@
 # Nudged Elastic Band (NEB) Calculations for HER on Ni<sub>3</sub>P<sub>2</sub> Surface
 
-This repository contains data of Nudged elastic band calculations focused on understanding the Volmer-Volmer-Tafel and Volmer-Heyrovsky pathways for the Hydrogen Evolution Reaction (HER) on Ni<sub>3</sub>P<sub>2</sub> and Ni<sub>3</sub>P<sub>2</sub> + 4P surfaces.
+This repository contains data of Nudged elastic band calculations focused on understanding the Volmer-Volmer-Tafel and Volmer-Heyrovsky pathways for the Hydrogen Evolution Reaction (HER) on Ni<sub>3</sub>P<sub>2</sub> and Ni<sub>3</sub>P<sub>2</sub> + 4P surfaces. 
+
+For citation purposes: https://doi.org/10.5281/zenodo.12685655
 
 ### README.md:
 
